@@ -21,7 +21,7 @@ font-size: 35px;
 @keyframes glow {
     from {
         
-        text-shadow: 0 0 2px #fff, 0 0 3px #ffdc73, 0 0 4px #ffcf40, 0 0 5px #ffbf00, 0 0 6px #bf9b30, 0 0 7px #a67c00, 0 0 8px #946f01;
+        text-shadow: 0 0 3px #fff, 0 0 4px #ffdc73, 0 0 5px #ffcf40, 0 0 6px #ffbf00, 0 0 7px #bf9b30, 0 0 8px #a67c00, 0 0 9px #946f01;
     }
     to {
         
