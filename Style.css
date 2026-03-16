@@ -13,8 +13,21 @@ body {
 text-stroke: 1px #746d70;
 
 font-size: 35px;
+
+ animation: glow 1s ease-in-out infinite alternate; 
+
 }
 
+@keyframes glow {
+    from {
+        
+        text-shadow: 0 0 10px #fff, 0 0 20px #dddddd, 0 0 30px #8f8f8f, 0 0 40px #5e5e5e, 0 0 50px #303030, 0 0 60px #161616, 0 0 70px #000000;
+    }
+    to {
+        
+        text-shadow: 0 0 20px #fff, 0 0 30px #4d94ff, 0 0 40px #4d94ff, 0 0 50px #4d94ff, 0 0 60px #4d94ff, 0 0 70px #4d94ff, 0 0 80px #4d94ff;
+    }
+}
 
 #outlined-text2 {
 
