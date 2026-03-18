@@ -10,8 +10,6 @@ body {
 
 -webkit-text-stroke: 1px #A2999E;
 
-text-stroke: 1px #746d70;
-
 font-size: 35px;
 
  animation: glow 1s ease-in-out infinite alternate; 
@@ -32,8 +30,6 @@ font-size: 35px;
 #outlined-text2 {
 
 -webkit-text-stroke: 1px #ffffff;
-
-text-stroke: 1px #746d70;
 
 font-size: 20px;
 
