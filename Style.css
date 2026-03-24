@@ -19,11 +19,11 @@ font-size: 35px;
 @keyframes glow {
     from {
         
-        text-shadow: 0 0 3px #fff, 0 0 4px #ffdc73, 0 0 5px #ffcf40, 0 0 6px #ffbf00, 0 0 7px #bf9b30, 0 0 8px #a67c00, 0 0 9px #946f01;
+        text-shadow: 0 0 3px #fff, 0 0 4px #d6d6d6, 0 0 5px #bebebe, 0 0 6px #a8a8a8, 0 0 7px #757575, 0 0 8px #363636, 0 0 9px #131313;
     }
     to {
         
-        text-shadow: 0 0 0.1px #fff, 0 0 1px #ffdc73, 0 0 2px #ffcf40, 0 0 3px #ffbf00, 0 0 4px #bf9b30, 0 0 5px #a67c00, 0 0 6px #946f01;
+        text-shadow: 0 0 0.1px #fff, 0 0 1px #d6d6d6, 0 0 2px #bebebe, 0 0 3px #a8a8a8, 0 0 4px #757575, 0 0 5px #363636, 0 0 6px #131313;
     }
 }
 
