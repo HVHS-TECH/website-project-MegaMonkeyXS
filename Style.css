@@ -36,6 +36,6 @@ font-size: 20px;
 
 }
 
-.cursor {
-    cursor: url("Free\ hand.png");
+html {
+    cursor: url("Free hand.png");
 }
