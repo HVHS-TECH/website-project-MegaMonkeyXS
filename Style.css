@@ -38,3 +38,12 @@ font-size: 20px;
 html {
     cursor: url("Cursor.png");
 }
+
+#gif-overlay {
+position: fixed;
+top: 0;
+left: 0;
+Width: 100vw;
+Length: 100vh;
+
+}
