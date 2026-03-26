@@ -5,7 +5,7 @@ body {
   font-family: 'Comic Sans MS' cursive;
 }
 
-#outlined-text {
+.outlined-text {
 
 -webkit-text-stroke: 1px #A2999E;
 
@@ -26,7 +26,7 @@ font-size: 35px;
     }
 }
 
-#outlined-text2 {
+.outlined-text2 {
 
 -webkit-text-stroke: 1px #ffffff;
 
