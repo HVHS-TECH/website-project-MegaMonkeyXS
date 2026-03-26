@@ -50,11 +50,10 @@ background-size: cover;
 background-position: center; 
 background-repeat: no-repeat; 
 z-index: 9999; 
-
 }
 
 .content {
-    position: relative; /* Needed if you want content to appear *above* the overlay (unlikely in this use case) */
-    z-index: 1;
-    padding: 20px;
+position: relative;
+z-index: 1;
+padding: 20px;
 }
