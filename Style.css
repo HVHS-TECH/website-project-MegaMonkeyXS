@@ -1,5 +1,6 @@
 body {
   background-color: #C6C7C4;
+  background-image: url('Statickinda.gif')
   color: #ffffff;
   margin: 0;
   font-family: 'Comic Sans MS', cursive;
@@ -28,7 +29,7 @@ font-size: 35px;
 
 .outlined-text2 {
 
--webkit-text-stroke: 1px #ffffff;
+-webkit-text-stroke: 1.5px #000000;
 
 font-size: 20px;
 
@@ -44,16 +45,24 @@ position: fixed;
 top: 0;
 left: 0;
 Width: 100vw;
-Length: 100vh;
-Background-image: url('Statickinda.gif')
+Height: 100vh;
+background-image: url('Statickinda.gif');
 background-size: cover; 
 background-position: center; 
 background-repeat: no-repeat; 
 z-index: 9999; 
+opacity: 45%;
+pointer-events: none;
 }
 
 .content {
 position: relative;
 z-index: 1;
 padding: 20px;
+}
+
+.bottom-fixed-image {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
